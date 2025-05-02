@@ -1,0 +1,14 @@
+import java.util.*;
+public class div
+{
+	public static void main(String[] args) {
+		Scanner abd = new Scanner(System.in);
+		System.out.print("The value of a : ");
+		int a = abd.nextInt();
+		System.out.print("The value of b :");
+		int b = abd.nextInt();
+		float c = (float)a / b;
+		System.out.println(c);
+	}
+}
+
