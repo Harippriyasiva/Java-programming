@@ -1,0 +1,10 @@
+import java.util.*;
+public class statement
+{
+	public static void main(String[] args) {
+		Scanner ca = new Scanner(System.in);
+		System.out.print("Enter the Number to print statement: ");
+		int a = ca.nextInt();
+		System.out.println(a+"+"+a+a+"+"+a+a+a);
+	}
+}
