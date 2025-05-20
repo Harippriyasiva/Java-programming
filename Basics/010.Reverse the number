@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner num = new Scanner(System.in);
+	    int value = num.nextInt();
+	    int rev = 0; 
+	    while(value > 0) {
+	        int remainder = value % 10 ;
+	        rev = (rev * 10) + remainder;
+	        value = value/10;
+	    }
+		System.out.println("Reverse of the number:" + rev);
+	}
+}
